@@ -1,0 +1,20 @@
+{
+    "name": "galaxy",
+    "version": "1.0.0",
+    "description": "Learning ThreeJS",
+    "main": "index.js",
+    "scripts": {
+        "build": "npx vite build --base=/test/",
+        "serve": "npx vite",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Siegfried Nowhere <siegfried.artworks@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "three": "^0.152.2",
+        "lil-gui": "^0.18.1"
+    },
+    "devDependencies": {
+        "vite": "^4.3.8"
+    }
+}

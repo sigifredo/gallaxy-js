@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+html {
+    background-color: black;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    width: 100vw;
+}
+
+h2 {
+    background-color: rgba(0, 0, 0, 0.07);
+    bottom: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    left: 0;
+    margin: 0;
+    padding: 1.1em;
+    position: absolute;
+    text-align: center;
+    user-select: none;
+    width: 100%;
+    z-index: 10;
+}
+
+canvas {
+    left: 0;
+    position: fixed;
+    top: 0;
+    outline: none;
+}
+
+@media screen and (max-width: 700px) {
+    h2 {
+        font-size: 1.1em;
+    }
+}
